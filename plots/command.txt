@@ -1,0 +1,1 @@
+python EvolutionAlgorithm.py --d 1 --m 1 --t 1 --mid 5 --p 250 --n 500 --ts 3 --mr  0.1 --cr  0.5 --es 10

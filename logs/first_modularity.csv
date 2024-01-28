@@ -1,0 +1,4 @@
+,mut_rate,cross_rate,num_of_iterations,pop_size,modularity,dissagregation,systems_used
+0,0.001,0.75,800,250,1,False,27050
+1,0.001,0.75,800,250,5,False,5121
+2,0.001,0.75,800,250,20,False,1374
