@@ -3,17 +3,16 @@
 # Telecommunication Network Design Using Evolutionary Algorithm
 
 ## Problem Statement
-The objective of this project is to design a telecommunication network that minimizes the number of transmission systems with different modularity levels \( m \) (where \( m = 1 \), \( m > 1 \), and \( m \gg 1 \)) using an evolutionary algorithm. The network is represented as a graph \( G = (N, E) \), where:
-- \( N \) is the set of nodes
-- \( E \) is the set of edges
+The objective of this project is to design a telecommunication network that minimizes the number of transmission systems with different modularity levels \( m \) (where \( m = 1 \), \( m > 1 \), and \( m >> 1 \)) using an evolutionary algorithm. The network is represented as a graph \(G = (N, E)\), where:
+- \(N\) is the set of nodes
+- \(E\) is the set of edges
 
 The capacity function for each edge is given by:
 
-\[
-f_e(o) = \lceil \frac{o}{m} \rceil
-\]
+![image](https://github.com/user-attachments/assets/f8b785c1-3cc4-46fb-a780-663d87e5bfab)
 
-where \( o \) is the demand and \( m \) is the modularity of the transmission system. The set of demands \( D \) between each pair of nodes is described by a demand matrix. For each demand, at least two predefined paths are available for transmission.
+
+where \(o\) is the demand and \(m\) is the modularity of the transmission system. The set of demands \(D\) between each pair of nodes is described by a demand matrix. For each demand, at least two predefined paths are available for transmission.
 
 ## Objective
 This project aims to evaluate how demand aggregation affects the cost of the network in terms of the number of transmission systems used. The two cases to be considered are:
